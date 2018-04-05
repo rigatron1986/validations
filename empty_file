@@ -1,0 +1,15 @@
+git clone https://github.com/cooperka/emoji-commit-messages.git
+cd emoji-commit-messages
+git status
+git checkout -b my-new-feature
+echo “This is a cool new file” > my-file.txt
+git status
+git add --all
+git status
+git diff HEAD
+git commit -m “Add my-file.txt”
+git status
+git log
+git push origin HEAD
+git checkout master
+git pull
